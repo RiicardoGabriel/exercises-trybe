@@ -1,0 +1,1 @@
+Neste dia aprendi a fazer a autenticação/instalação do git, com chave ssh na minha conta no github com minha máquina.

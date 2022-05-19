@@ -1,0 +1,1 @@
+Neste dia aprendi a inciar um repositório git, fazer o arquivo html, utilizando e codando com o live server.

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Exercício</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+    <h1>Formulário de Inscrição da Viagem</h1>
+    <form id="form">
+        <div class="inicio">
+        <label>Nome:</label>
+        <input type="text" minlength="10" maxlength="40" placeholder="Digite seu nome aqui">
+        </div>
+        <div class="inicio">
+        <label>Email:</label>
+        <input type="email" minlength="10" maxlength="50" name="email" placeholder="Digite seu email aqui">
+        </div>
+        <div>
+            <p>Destino preferido:</p>
+            <input type="radio" name="Opção 1" value="opcao1" >Cidade
+            <input type="radio" name="Opção 1" value="opcao1" >Campo
+            <input type="radio" name="Opção 1" value="opcao1" >Praia
+            <input type="radio" name="Opção 1" value="opcao1" >Montanhas
+        </div>
+        <div>
+            <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+            <textarea id="txtArea" maxlength="500"></textarea>
+        </div>
+        <div class="paddingGeral">
+            Qual a melhor data para realizar sua viagem?<input type="date" name="nascimento">
+        </div>
+        <div class="paddingGeral">
+            Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+            <input type="checkbox" name="concordo1" value="concordo1"><br>
+            Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+            <input type="checkbox" name="concordo2" value="concordo2">
+        </div>
+        <div class="paddingGeral">
+            <button>Enviar</button>
+            <button type="reset">Apagar</button>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

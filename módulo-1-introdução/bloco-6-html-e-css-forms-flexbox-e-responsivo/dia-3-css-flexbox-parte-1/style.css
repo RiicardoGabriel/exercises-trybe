@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+#container-cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #323433;
+    color: #E8E4E8;
+}
+
+#sing-up {
+    color: #E8E4E8;
+    text-decoration: underline;
+    font-size: 11px;
+}
+
+#container-frase {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.imgs-size {
+    width: 100px;
+    height: 100px;
+}
+
+#container-hab-geral {
+    display: flex;
+    justify-content: center;
+}
+
+#container-hab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.habs {
+    padding: 15px;
+    margin: 4px;
+    background-color: #F1F1F1;
+    box-shadow: 3px 3px #cdcdcd;
+    border-radius: 20px;
+}
+
+.hab-text {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.hab-text:hover {
+    color: rgb(172, 0, 0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.imgs-sociais {
+    width: 20px;
+    height: 20px;
+    padding: 0px 5px;
+}
+
+#container-sociais {
+    display: flex;
+    justify-content: center;
+}

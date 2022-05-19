@@ -1,0 +1,1 @@
+Neste projeto aprendi a manipular o terminal do linux, unix, shell.

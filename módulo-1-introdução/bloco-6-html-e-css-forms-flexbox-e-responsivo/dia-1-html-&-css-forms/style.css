@@ -1,0 +1,21 @@
+body {
+    margin: 10px;
+}
+
+.inicio {
+    padding: 5px 0px;
+}
+
+#txtArea {
+    width: 100%;
+    resize: none;
+}
+
+.paddingGeral {
+    padding: 8px 0px
+}
+
+#form {
+    border: 3px solid black;
+    padding: 10px;
+}
