@@ -1,0 +1,25 @@
+{
+  "name": "exercicies",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "mocha tests/**/*.test.js --recursive --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "4.3",
+    "chai-http": "4.3",
+    "eslint": "6.8",
+    "eslint-config-trybe-backend": "1.0",
+    "mocha": "10.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "4.17"
+  },
+  "description": ""
+}
